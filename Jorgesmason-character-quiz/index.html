@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JorgesMason Character Quiz</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+</head>
+
+<body id="background">
+
+<h1>JorgesMason Character Quiz</h1>
+
+<p>
+   The rules are simple. There will be an image of a character and an answer box beside it.<br>
+   In the box guess who you think the character is. The end will display your responses.
+</p>
+
+<button onclick="$userName()">Click this to enter YOUR name</button>
+
+<div class="questions-container">
+    <section class="question-box">
+        <h1>1.</h1>
+
+        <img src="Images/DR-DOE-SAD.png" alt="DR-DOE-SAD">
+
+        <input type="text" class="user-answer">
+    </section>
+
+    <section class="question-box">
+        <h1>2.</h1>
+
+        <img src="Images/Bill-Paranoid.jpg" alt="Bill-Paranoid">
+
+        <input type="text" class="user-answer">
+    </section>
+
+    <section class="question-box">
+        <h1>3.</h1>
+
+        <img src="Images/Luke-Dripwalker.JPG" alt="Luke-Dripwalker">
+
+        <input type="text" class="user-answer">
+    </section>
+
+    <section class="question-box">
+        <h1>4.</h1>
+
+        <img src="Images/almight-loaf.webp" alt="almight-loaf">
+
+        <input type="text" class="user-answer">
+    </section>
+
+    <section class="question-box">
+        <h1>5.</h1>
+
+        <img src="Images/radar-o-reily-girl.jpg" alt="radar-o-reily-girl">
+
+        <input type="text" class="user-answer">
+    </section>
+
+    <section class="question-box">
+        <h1>6.</h1>
+
+        <img src="Images/lacey-audio.jpg" alt="lacey-audio">
+
+        <input type="text" class="user-answer">
+    </section>
+
+    <section class="question-box">
+        <h1>7.</h1>
+
+        <img src="Images/mark-johnson.png" alt="mark-johnson">
+
+        <input type="text" class="user-answer">
+    </section>
+
+    <section class="question-box">
+        <h1>8.</h1>
+
+        <img src="Images/kiyru-kazuma.webp" alt="kiyru-kazuma">
+
+        <input type="text" class="user-answer">
+    </section>
+
+    <section class="question-box">
+        <h1>9.</h1>
+
+        <img src="Images/ace-pheonix.jpg" alt="ace-pheonix">
+
+        <input type="text" class="user-answer">
+    </section>
+
+    <section class="question-box">
+        <h1>10.</h1>
+
+        <img src="Images/takahashi.jpg" alt="takahashi">
+
+        <input type="text" class="user-answer">
+    </section>
+</div>
+
+<p id="results">
+    <b>Your name:</b> <span id="username"></span><br>
+    <b>Your answers were:</b> <span id="output"></span><br>
+    <b>Correct answers:</b> <br><span id="correct-answers-list"></span><br>
+</p> 
+
+<button onclick="$collectInfo()">Submit Your Answers</button>
+
+
+</body>
+</html>
